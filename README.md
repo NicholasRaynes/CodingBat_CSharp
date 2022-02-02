@@ -1,2 +1,2 @@
 # CodingBat_CSharp
-Practicing coding CodingBat problems using C#
+Practicing CodingBat problems using C#
