@@ -12,7 +12,7 @@ namespace GitHubSandbox
     /// The program includes the declaration, implementation,
     /// and testing for the SumDouble method.
     /// </summary>
-    internal class Program
+    class SumDoubleProgram
     {
         static void Main(string[] args)
         {
