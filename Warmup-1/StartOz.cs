@@ -12,7 +12,7 @@ namespace GitHubSandbox
     /// This class includes the declaration and implementation
     /// of the StartOz method.
     /// </summary>
-    internal class Program
+    class StartOzProgram
     {
         /// <summary>
         /// Given a string, return a string made of the first 2 chars (if present), however 
