@@ -2,7 +2,7 @@ namespace GitHubSandbox
 {
   public class Has271Program 
   {
-    public bool Has271(int[] nums) 
+    public static bool Has271(int[] nums) 
     {
       for (int i = 0; i < (nums.Length - 2); i++) 
       {
