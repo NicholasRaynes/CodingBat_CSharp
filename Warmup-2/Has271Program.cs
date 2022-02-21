@@ -1,5 +1,17 @@
+/*
+ * Name: Nicholas Raynes
+ * Version: 0.0.1
+ * Source: https://codingbat.com/prob/p167430
+ */
+
+using System;
+
 namespace GitHubSandbox 
 {
+  /// <summary>
+  /// The program includes the declaration, implementation,
+  /// and testing for the Has271 method.
+  /// </summary>
   public class Has271Program 
   {
     public static void Main(string[] args)
@@ -17,6 +29,13 @@ namespace GitHubSandbox
       Console.ReadKey();
     }
     
+    /// <summary>
+    /// Given an array of ints, return true if it contains a 2, 7, 1 pattern: a value, followed by the 
+    /// value plus 5, followed by the value minus 1. Additionally the 271 counts even if the "1" differs 
+    /// by 2 or less from the correct value.
+    /// </summary>
+    /// <param name="nums">The array of integers to be searched through.</param>
+    /// <returns>Whether or not the provided array contains a 2, 7, 1 pattern.</returns>
     public static bool Has271(int[] nums) 
     {
       for (int i = 0; i < (nums.Length - 2); i++) 
