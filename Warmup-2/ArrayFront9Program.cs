@@ -2,6 +2,10 @@ using System;
 
 namespace GitHubSandbox
 {
+    /// <summary>
+    /// The program includes the declaration, implementation,
+    /// and testing for the ArrayFront9 method.
+    /// </summary>
     public class ArrayFront9Program
     {
 	public static void Main(string[] args)
@@ -19,6 +23,12 @@ namespace GitHubSandbox
             Console.ReadKey();
         }
 	    
+	/// <summary>
+        /// This method is given an array of ints, and returns true if one of the first 4 elements in the array 
+        /// is a 9. The array length may be less than 4.
+        /// </summary>
+        /// <param name="nums">The provided array of integers.</param>
+        /// <returns>Whether or not one of the first 4 elements in the array is a 9.</returns>
         public static bool ArrayFront9(int[] nums)
         {
             int arrayEnd = nums.Length;
