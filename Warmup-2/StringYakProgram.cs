@@ -4,7 +4,7 @@ namespace GitHubSandbox
 {
     public class StringYakProgram
     {
-        public string StringYak(string input)
+        public static string StringYak(string input)
         {
             string output = "";
 
