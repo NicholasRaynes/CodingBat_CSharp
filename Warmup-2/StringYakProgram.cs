@@ -2,6 +2,10 @@ using System;
 
 namespace GitHubSandbox
 {
+    /// <summary>
+    /// The program includes the declaration, implementation,
+    /// and testing for the StringYak method.
+    /// </summary>
     public class StringYakProgram
     {
         public static void Main(string[] args)
@@ -15,6 +19,12 @@ namespace GitHubSandbox
             Console.ReadKey();
         }
         
+        /// <summary>
+        /// This method is given a string, and returns a version where all the "yak" are removed, 
+        /// but the "a" can be any char. The "yak" strings will not overlap.
+        /// </summary>
+        /// <param name="input">The provided string to be searched through.</param>
+        /// <returns>A new string that consists of the original string characters, excluding "yak".</returns>
         public static string StringYak(string input)
         {
             string output = "";
