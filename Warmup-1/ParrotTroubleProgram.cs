@@ -1,6 +1,6 @@
 /*
  * Name: Nicholas Raynes
- * Version: 0.0.1
+ * Version: 0.0.2
  * Source: https://codingbat.com/prob/p140449
  */
 
@@ -26,9 +26,9 @@ namespace GitHubSandbox
         }
         
         /// <summary>
-        /// We have a loud talking parrot.The "hour" parameter is the current hour time in the range 0..23. We are 
-        /// in trouble if the parrot is talking and the hour is before 7 or after 20. This method returns true if 
-        /// we are in trouble.
+        /// The "hour" parameter is the current hour time in the range 0..23. We are 
+        /// in trouble if the parrot is talking and the hour is before 7 or after 20. This method returns whether
+        /// or not we are in trouble.
         /// </summary>
         /// <param name="isTalking">Whether or not the parrot is talking.</param>
         /// <param name="hour">The hour of a day.</param>
