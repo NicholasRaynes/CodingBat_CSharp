@@ -2,9 +2,9 @@ using System;
 
 namespace GitHubSandbox
 {
-	public class AltPairsProgram
+  public class AltPairsProgram
   {
-        public static string AltPairs(string input)
+  	public static string AltPairs(string input)
         {
             string output = "";
 
