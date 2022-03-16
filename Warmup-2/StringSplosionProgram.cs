@@ -4,7 +4,7 @@ namespace GitHubSandbox
 {
     public class StringSplosionProgram
     {
-        public string StringSplosion(string input)
+        public static string StringSplosion(string input)
         {
             String result = "";
 
