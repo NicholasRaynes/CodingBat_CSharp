@@ -23,7 +23,7 @@ namespace GitHubSandbox
         /// This method is given a non-empty string like "Code", and returns a string like "CCoCodCode".
         /// </summary>
         /// <param name="input">The provided non-empty string.</param>
-        /// <returns name = "result">Whether or not one of the first 4 elements in the array is a 9.</returns>
+        /// <returns>The exploded string.</returns>
         public static string StringSplosion(string input)
         {
             String result = "";
