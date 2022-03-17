@@ -2,6 +2,10 @@ using System;
 
 namespace GitHubSandbox
 {
+    /// <summary>
+    /// The program includes the declaration, implementation,
+    /// and testing for the StringSplosion method.
+    /// </summary>
     public class StringSplosionProgram
     {
         public static void Main(string[] args)
@@ -15,6 +19,11 @@ namespace GitHubSandbox
             Console.ReadKey();
         }
         
+        /// <summary>
+        /// This method is given a non-empty string like "Code", and returns a string like "CCoCodCode".
+        /// </summary>
+        /// <param name="input">The provided non-empty string.</param>
+        /// <returns name = "result">Whether or not one of the first 4 elements in the array is a 9.</returns>
         public static string StringSplosion(string input)
         {
             String result = "";
