@@ -19,6 +19,12 @@ namespace GitHubSandbox
             Console.ReadKey();
         }
         
+        /// <summary>
+        /// This method is given a string, and returns a version without the first and last char. 
+        /// The string length will be at least 2.
+        /// </summary>
+        /// <param name="str">The provided string.</param>
+        /// <returns name="output">The provided string without the first and last characters.</returns>
         public static string WithoutEnd(string str)
         {
             string output = "";
