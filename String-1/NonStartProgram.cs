@@ -2,6 +2,10 @@ using System;
 
 namespace GitHubSandbox
 {
+    /// <summary>
+    /// The program includes the declaration, implementation,
+    /// and testing for the NonStart method.
+    /// </summary>
     public class NonStartProgram
     {
         public static void Main(string[] args)
