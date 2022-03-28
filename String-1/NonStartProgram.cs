@@ -1,3 +1,9 @@
+/*
+ * Name: Nicholas Raynes
+ * Version: 0.0.1
+ * Source: https://codingbat.com/prob/p143825
+ */
+
 using System;
 
 namespace GitHubSandbox
