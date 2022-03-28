@@ -15,6 +15,13 @@ namespace GitHubSandbox
             Console.ReadKey();
         }
         
+        /// <summary>
+        /// Given 2 strings, this method returns their concatenation, except omit the first char of each. 
+        /// The strings will be at least length 1.
+        /// </summary>
+        /// <param name="a">The first provided string.</param>
+        /// <param name="b">The second provided string.</param>
+        /// <returns>The concatenation of the strings, without the first char of each.</returns>
         public static string NonStart(string a, string b)
         {
             string output = "";
