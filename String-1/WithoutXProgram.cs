@@ -2,6 +2,10 @@ using System;
 
 namespace GitHubSandbox
 {
+    /// <summary>
+    /// The program includes the declaration, implementation,
+    /// and testing for the WithoutX method.
+    /// </summary>
     public class WithoutXProgram
     {
         public static void Main(string[] args)
