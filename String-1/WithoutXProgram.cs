@@ -15,6 +15,12 @@ namespace GitHubSandbox
             Console.ReadKey();
         }
         
+        /// <summary>
+        /// Given a string, if the first or last chars are 'x', this method returns the string without those 
+        /// 'x' chars, and otherwise return the string unchanged.
+        /// </summary>
+        /// <param name="str">The provided string.</param>
+        /// <returns>The evaluated version of the provided string.</returns>
         public static String WithoutX(String str)
         {
            if(str.Length > 0 && str[0] == 'x')
