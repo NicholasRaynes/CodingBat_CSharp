@@ -4,6 +4,17 @@ namespace GitHubSandbox
 {
     public class BobThereProgram
     {
+        public static void Main(string[] args)
+        {
+            // Testing 
+            Console.WriteLine("Test #1 - BobThere('abcbob')\nOutput: {0}\n", BobThere("abcbob"));
+            Console.WriteLine("Test #2 - BobThere('b9b')\nOutput: {0}\n", BobThere("b9b"));
+            Console.WriteLine("Test #3 - BobThere('bac')\nOutput: {0}\n", BobThere("bac"));
+
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
+        }
+        
         public static bool BobThere(String str)
         {
             int length = str.Length;
