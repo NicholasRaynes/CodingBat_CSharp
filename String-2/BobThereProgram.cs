@@ -15,6 +15,13 @@ namespace GitHubSandbox
             Console.ReadKey();
         }
         
+        /// <summary>
+        /// This method returns true if the given string contains a "bob" string, 
+        /// but where the middle 'o' char can be any char.
+        /// </summary>
+        /// <param name="str">The provided string to be evaluated.</param>
+        /// <returns>Whether or not the given string contains a "bob" string, but where the 
+        /// middle 'o' can be any char.</returns>
         public static bool BobThere(String str)
         {
             int length = str.Length;
