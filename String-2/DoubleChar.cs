@@ -2,7 +2,7 @@ using System;
 
 namespace GitHubSandbox
 {
-	public class DoubleCharProgram
+    public class DoubleCharProgram
     {
         public static string DoubleChar(string str)
         {
