@@ -2,6 +2,10 @@ using System;
 
 namespace GitHubSandbox
 {
+    /// <summary>
+    /// The program includes the declaration, implementation,
+    /// and testing for the DoubleChar method.
+    /// </summary>
     public class DoubleCharProgram
     {
         public static void Main(string[] args)
