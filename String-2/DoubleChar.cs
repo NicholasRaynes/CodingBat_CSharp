@@ -15,6 +15,12 @@ namespace GitHubSandbox
             Console.ReadKey();
         }
         
+        /// <summary>
+        /// Given a string, this method returns a string where for every char in the original, 
+        /// there are two chars.
+        /// </summary>
+        /// <param name="str">The provided string to be evaluated.</param>
+        /// <returns>A new string containing double of each char.</returns>
         public static string DoubleChar(string str)
         {
             string result = "";
