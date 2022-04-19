@@ -17,16 +17,16 @@ namespace GitHubSandbox
         
         public static string DoubleChar(string str)
         {
-            string love = "";
+            string result = "";
 
             for(int i = 0; i < str.Length; i++)
             {
-                love += str[i];
+                result += str[i];
 
-                love += str[i];
+                result += str[i];
             }
 
-            return love;
+            return result;
         }
     }
 }
