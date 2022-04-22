@@ -1,6 +1,6 @@
 /*
  * Name: Nicholas Raynes
- * Version: 0.0.1
+ * Version: 0.0.2
  * Source: https://codingbat.com/prob/p165312
  */
 
