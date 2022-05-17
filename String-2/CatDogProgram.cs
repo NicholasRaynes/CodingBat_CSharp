@@ -8,6 +8,10 @@ using System;
 
 namespace GitHubSandbox
 {
+    /// <summary>
+    /// The program includes the declaration, implementation,
+    /// and testing for the CatDog method.
+    /// </summary>
     public class CatDogProgram
     {
         public static bool CatDog(string str)
